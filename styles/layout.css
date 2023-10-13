@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+
+    /* Layout Styles */
 html {
     background: linear-gradient(#abd5ff, #fafafa) no-repeat;
 }
@@ -11,6 +13,7 @@ body {
     min-width: 640px;
     background-color: #e9eff5;
     box-shadow: gray 0px 0px 30px;
+    padding: 10px;
 }
 
 header {
@@ -21,5 +24,47 @@ footer {
     clear: both;
     text-align: center;
     font-size: 1.2em;
-    padding: 5px 0px;
+    margin-top: 5px;
+}
+
+    /* Link Styles */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: coral;
+}
+
+    /* Header Styles */
+div.column {
+    float: left;
+}
+
+div.column#img {
+    display: flex;
+    width: 40px;
+}
+
+div.column#spacer {
+    width: 240px;
+}
+
+div.column#name {
+    width: 360px;
+    text-align: center;
+}
+
+div.column#nav {
+    float: right;
+    width: 70px;
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
