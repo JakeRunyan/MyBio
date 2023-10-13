@@ -13,7 +13,13 @@ body {
     box-shadow: gray 0px 0px 30px;
 }
 
-
 header {
     text-align: center;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px 0px;
 }
