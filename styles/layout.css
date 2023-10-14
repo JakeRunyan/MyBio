@@ -17,10 +17,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-header {
-    text-align: center;
-}
-
 footer {
     clear: both;
     text-align: center;
@@ -39,6 +35,10 @@ a:hover {
 }
 
     /* Header Styles */
+header, h1 {
+    text-align: center;
+}
+
 div.column {
     float: left;
 }
@@ -54,7 +54,7 @@ div.column#spacer {
 
 div.column#name {
     width: 360px;
-    text-align: center;
+    font-family:'Courier New', Courier, monospace
 }
 
 div.column#nav {
