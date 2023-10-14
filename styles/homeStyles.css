@@ -2,3 +2,9 @@ div.main > img {
     margin: 0 auto;
     display: block;
 }
+
+article {
+    margin: 0px 10%;
+    line-height: 20px;
+    font-size: 1.1em;
+}
