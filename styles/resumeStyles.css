@@ -16,6 +16,21 @@ fieldset legend {
 dt {
     font-size: 1.1em;
     font-weight: bold;
+    float: left;
+}
+
+dt#right {
+    float: right;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.0em;
+}
+
+dt#right::after {
+    clear: both;
+}
+
+#enter {
     clear: both;
 }
 
@@ -25,4 +40,14 @@ ul {
 
 hr {
     clear: both;
+}
+
+img {
+    float: left;
+}
+
+div.resume div.column {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
 }

@@ -39,32 +39,32 @@ header, h1 {
     text-align: center;
 }
 
-div.column {
+header div.column {
     float: left;
 }
 
-div.column#img {
+header div.column#img {
     display: flex;
     width: 40px;
 }
 
-div.column#spacer {
+header div.column#spacer {
     width: 240px;
 }
 
-div.column#name {
+header div.column#name {
     width: 360px;
     font-family:'Courier New', Courier, monospace
 }
 
-div.column#nav {
+header div.column#nav {
     float: right;
     width: 70px;
     margin-top: 30px;
     font-size: 1.1em;
 }
 
-div.row:after {
+header div.row:after {
     content: "";
     display: table;
     clear: both;
