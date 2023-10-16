@@ -2,3 +2,27 @@ ul {
     float: left;
     margin-right: 50px;
 }
+
+fieldset {
+    margin: 0px 10%;
+    line-height: 20px;
+}
+
+fieldset legend {
+    font-size: 1.1em;
+    color: green;
+}
+
+dt {
+    font-size: 1.1em;
+    font-weight: bold;
+    clear: both;
+}
+
+ul {
+    margin: 10px 0px;
+}
+
+hr {
+    clear: both;
+}
