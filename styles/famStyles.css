@@ -1,0 +1,42 @@
+/* Figure Styles */
+figure {
+    margin: 5px 10%;
+    clear:both;
+    padding: 10px;
+}
+
+figure:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+figure:nth-of-type(odd) {
+    background-color: #8faab5;
+    color: white;
+    box-shadow: #8faab5 0px 0px 25px;
+}
+
+figure:nth-of-type(even) {
+    background-color: #8fb59b;
+    color: white;
+    box-shadow: #8fb59b 0px 0px 25px;
+}
+
+figure.leftP p {
+    float: left;
+}
+
+figure.leftP img {
+    float: right;
+    border-radius: 30px;
+}
+
+figure.rightP p {
+    float: right;
+}
+
+figure.rightP img {
+    float: left;
+    border-radius: 30px;
+}
