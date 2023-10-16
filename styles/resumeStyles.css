@@ -1,16 +1,38 @@
-ul {
-    float: left;
-    margin-right: 50px;
-}
-
+/* Fieldset Styles */
 fieldset {
-    margin: 0px 10%;
+    margin: 5px 10%;
     line-height: 20px;
+    box-shadow: lightgray 0px 0px 25px;
 }
 
 fieldset legend {
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: green;
+}
+
+hr {
+    clear: both;
+}
+
+#enter {
+    clear: both;
+}
+
+/* Fieldset Border Styles */
+fieldset:first-of-type {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+fieldset:last-of-type {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* List Styles */
+ul {
+    float: left;
+    margin: 10px 0px;
 }
 
 dt {
@@ -19,35 +41,31 @@ dt {
     float: left;
 }
 
-dt#right {
+dd {
     float: right;
     font-weight: normal;
     font-style: italic;
     font-size: 1.0em;
 }
 
-dt#right::after {
-    clear: both;
+dl {
+    margin: 0;
 }
 
-#enter {
-    clear: both;
-}
-
-ul {
-    margin: 10px 0px;
-}
-
-hr {
-    clear: both;
-}
-
-img {
-    float: left;
-}
-
+/* Certification Styles */
 div.resume div.column {
     float: left;
-    width: 100%;
+    /* When adding more certs add this.
+    width: 50%;*/
+    margin-left: 100px; /* When added amother cert delete this*/
+    text-align: center;
+}
+
+div.resume div.column img {
+    display: block;
     margin: 0 auto;
+}
+
+div.resume p {
+    margin: 0px;
 }

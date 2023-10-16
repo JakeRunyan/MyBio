@@ -46,6 +46,7 @@ header div.column {
 header div.column#img {
     display: flex;
     width: 40px;
+    margin-left: 20px;
 }
 
 header div.column#spacer {
