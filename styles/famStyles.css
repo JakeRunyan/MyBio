@@ -3,6 +3,11 @@ figure {
     margin: 5px 10%;
     clear:both;
     padding: 10px;
+    border-radius: 10px;
+}
+
+figure {
+    display: flex;
 }
 
 figure:after {
@@ -23,20 +28,20 @@ figure:nth-of-type(even) {
     box-shadow: #8fb59b 0px 0px 25px;
 }
 
-figure.leftP p {
-    float: left;
+figure.leftP div#p {
+    color: #e3ffea;
+    margin-right: 15px;
 }
 
-figure.leftP img {
-    float: right;
+figure.rightP div#p {
+    color: #d9e1fc;
+    margin-left: 15px;
+}
+
+figure img {
     border-radius: 30px;
 }
 
-figure.rightP p {
-    float: right;
-}
-
-figure.rightP img {
-    float: left;
-    border-radius: 30px;
+div#img {
+    margin: auto 0;
 }
