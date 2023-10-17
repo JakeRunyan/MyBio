@@ -1,4 +1,29 @@
-marquee {
+div.main {
+     perspective: 600px;
+}
+
+figure {
+    width: fit-content;
     margin: auto;
-    
+}
+
+div.main img {
+    display: block;
+}
+
+figure#fig1 {
+    transform: rotateX(-5deg);
+    box-shadow: rgb(51, 51, 51) 0px 10px 25px;
+}
+
+figure#fig2 {
+    float: left;
+    transform: scale(.7, .7) rotateY(5deg);
+    box-shadow: rgb(51, 51, 51) 0px 10px 25px;
+}
+
+figure#fig3 {
+    float: right;
+    transform: rotateY(-5deg) translateY(100px) translateX(-100px);
+    box-shadow: rgb(51, 51, 51) 0px 10px 25px;
 }
