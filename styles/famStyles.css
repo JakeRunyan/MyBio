@@ -18,13 +18,11 @@ figure:after {
 
 figure:nth-of-type(odd) {
     background-color: #8faab5;
-    color: white;
     box-shadow: #8faab5 0px 0px 25px;
 }
 
 figure:nth-of-type(even) {
     background-color: #8fb59b;
-    color: white;
     box-shadow: #8fb59b 0px 0px 25px;
 }
 
@@ -36,6 +34,11 @@ figure.leftP div#p {
 figure.rightP div#p {
     color: #f2f5fc;
     margin-left: 15px;
+}
+
+figure.centerP div#p {
+    color: #f2f5fc;
+    margin: 10px;
 }
 
 figure img {
